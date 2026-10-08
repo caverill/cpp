@@ -83,3 +83,15 @@ int main() {
 ```
 
 After the call, `Lexi.Energy` is `80`.
+
+---
+
+## Summary
+
+- **Abstraction** focuses on relevant features while leaving out unnecessary details.
+- A **class** defines a custom type, combining data and behavior.
+- An **object** is an instance of a class: `Pet` is the type, and `Lexi` is an object of that type.
+- **Instantiation** means creating an object, as in `Pet Lexi;`.
+- **Member variables** store state, while **member functions** define behavior.
+- The **member access operator (`.`)** accesses an object’s members, as in `Lexi.Energy` or `Lexi.Play(20)`.
+- Member functions can be **declared inside a class** and **defined outside it** using the **scope resolution operator (`::`)**, as in `Pet::Play`.
